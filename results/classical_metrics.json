@@ -1,0 +1,61 @@
+{
+  "logreg": {
+    "accuracy": 0.634959349593496,
+    "log_loss": 0.6255555943803541,
+    "brier": 0.21822609407405,
+    "auc": 0.7005801564131524,
+    "fit_seconds": 0.04132890701293945
+  },
+  "rf": {
+    "accuracy": 0.6455284552845528,
+    "log_loss": 0.6272525540413029,
+    "brier": 0.21851623909950688,
+    "auc": 0.7094955995482344,
+    "best_params": {
+      "n_estimators": 300,
+      "max_depth": 8,
+      "min_samples_leaf": 5,
+      "n_jobs": -1,
+      "random_state": 0
+    },
+    "cv_logloss": 0.6498332218528563,
+    "fit_seconds": 7.053131818771362
+  },
+  "xgb": {
+    "accuracy": 0.6365853658536585,
+    "log_loss": 0.6464371339594508,
+    "brier": 0.22669072449207306,
+    "auc": 0.6741561361263237,
+    "best_params": {
+      "n_estimators": 400,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "subsample": 0.9,
+      "colsample_bytree": 0.8,
+      "n_jobs": -1,
+      "eval_metric": "logloss",
+      "random_state": 0
+    },
+    "cv_logloss": 0.694227598592878,
+    "fit_seconds": 11.193059206008911
+  },
+  "lgbm": {
+    "accuracy": 0.6341463414634146,
+    "log_loss": 0.6549684197633311,
+    "brier": 0.229412143016305,
+    "auc": 0.6752376030856437,
+    "best_params": {
+      "n_estimators": 1000,
+      "num_leaves": 31,
+      "learning_rate": 0.02,
+      "min_child_samples": 30,
+      "subsample": 0.9,
+      "colsample_bytree": 0.7,
+      "n_jobs": -1,
+      "random_state": 0,
+      "verbose": -1
+    },
+    "cv_logloss": 0.7828203027160068,
+    "fit_seconds": 15.163998126983643
+  }
+}
