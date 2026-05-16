@@ -40,8 +40,6 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-If PyTorch fails to install on your Python version, see https://pytorch.org/get-started/locally/ for the CPU wheel that matches your environment.
-
 ## Reproducing the Results
 
 The repo includes all cached intermediate data and trained models. You can either run the full pipeline end-to-end (~1 minute on a modern laptop) or run only the parts you want to inspect.
