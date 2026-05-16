@@ -106,10 +106,3 @@ Test split: 2023-24 (1,230 games).
 ## Ethical Note
 
 This project is for educational and research purposes. It is not intended for gambling and does not incorporate betting-line features.
-
-## References
-
-- Hubáček, O., Šourek, G., & Železný, F. (2019). Exploiting sports-betting market using machine learning. *International Journal of Forecasting*, 35(2).
-- Pai, P. F., Chang Liao, L. H., & Lin, K. P. (2017). Analyzing basketball games by support vector machines with decision tree models. *Neural Computing and Applications*, 28(12).
-- Thabtah, F., Zhang, L., & Abdelhamid, N. (2019). NBA game result prediction using feature analysis and machine learning. *Annals of Data Science*, 6(1).
-- Lundberg, S. M., & Lee, S. I. (2017). A unified approach to interpreting model predictions. *NeurIPS 30*.
