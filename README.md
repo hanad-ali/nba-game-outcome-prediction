@@ -1,3 +1,5 @@
+![tests](https://github.com/hanad-ali/nba-game-outcome-prediction/actions/workflows/tests.yml/badge.svg)
+
 # NBA Game Outcome Prediction — Hybrid Machine Learning Approaches
 
 **Hanad Ali — CSCI 4931 Machine Learning Final Project**
